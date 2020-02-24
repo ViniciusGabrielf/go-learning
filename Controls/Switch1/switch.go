@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func noteForConcept(n float64) string {
-	var note = int(n)
-	switch note {
+	var value = int(n)
+	switch value {
 	case 10:
 		fallthrough // no break case
 	case 9:
@@ -18,7 +18,7 @@ func noteForConcept(n float64) string {
 	case 2, 1, 0:
 		return "E"
 	default: // no enter in any cases
-		return "Invalid note"
+		return "Invalid value"
 	}
 }
 

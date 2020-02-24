@@ -2,14 +2,14 @@ package main
 
 import "fmt"
 
-func noteForConcept(note float64) string {
-	if note >= 9 && note <= 10 {
+func noteForConcept(value float64) string {
+	if value >= 9 && value <= 10 {
 		return "Concept B"
-	} else if note >= 8 && note < 9 {
+	} else if value >= 8 && value < 9 {
 		return "Concept B"
-	} else if note >= 5 && note < 8 {
+	} else if value >= 5 && value < 8 {
 		return "Concept C"
-	} else if note >= 3 && note < 5 {
+	} else if value >= 3 && value < 5 {
 		return "Concept D"
 	} else {
 		return "Concept E"

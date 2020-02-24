@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func printResult(note float64) {
-	if note >= 7 {
-		fmt.Println("Approved with note", note)
+func printResult(value float64) {
+	if value >= 7 {
+		fmt.Println("Approved with value", value)
 	} else {
-		fmt.Println("Reproved with note", note)
+		fmt.Println("Reproved with value", value)
 	}
 }
 
